@@ -35,8 +35,8 @@
     <div class="container-xxl bg-white p-0">
 
         <!-- Navbar Start -->
-        <div class="container-fluid nav-bar bg-transparent">
-            <nav class="navbar navbar-expand-lg bg-white navbar-light py-0 px-4">
+        <div class="container-fluid nav-bar bg-dark">
+            <nav class="navbar navbar-expand-lg bg-dark navbar-light py-0 pt-xxl-3">
                 <a href="index.html" class="navbar-brand d-flex align-items-center text-center">
                     <div class="icon p-2 me-2">
                         <img class="img-fluid" src="~/img/icon-deal.png" alt="Icon" style="width: 30px; height: 30px;">
@@ -46,98 +46,79 @@
                 <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto">
-                        <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Transportasi</a>
-                            <div class="dropdown-menu rounded-0 m-0">
-                                <a href="property-list.html" class="dropdown-item">Tiket Pesawat</a>
-                                <a href="property-type.html" class="dropdown-item">Tiket Kreta Api</a>
-                                <a href="property-type.html" class="dropdown-item">Tiket Bus/Travel</a>
-                            </div>
-                        </div>
 
-                        <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Tempat Menginap</a>
-                            <div class="dropdown-menu rounded-0 m-0">
-                                <a href="testimonial.html" class="dropdown-item">Hotel</a>
-                                <a href="404.html" class="dropdown-item">Villa</a>
-                                <a href="404.html" class="dropdown-item">Apartemen</a>
-                            </div>
-                        </div>
-                        <a href="about.html" class="nav-item nav-link">About</a>
                     </div>
                 </div>
+
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle text-white" data-bs-toggle="dropdown">Transportasi</a>
+                    <div class="dropdown-menu rounded-0 m-0">
+                        <a href="property-list.html" class="dropdown-item">Tiket Pesawat</a>
+                        <a href="property-type.html" class="dropdown-item">Tiket Kreta Api</a>
+                        <a href="property-type.html" class="dropdown-item">Tiket Bus/Travel</a>
+                    </div>
+                </div>
+
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle text-white" data-bs-toggle="dropdown">Tempat Menginap</a>
+                    <div class="dropdown-menu rounded-0 m-0">
+                        <a href="testimonial.html" class="dropdown-item">Hotel</a>
+                        <a href="404.html" class="dropdown-item">Villa</a>
+                        <a href="404.html" class="dropdown-item">Apartemen</a>
+                    </div>
+                </div>
+
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle text-white" data-bs-toggle="dropdown">Destinasi</a>
+                    <div class="dropdown-menu rounded-0 m-0">
+                        <a href="testimonial.html" class="dropdown-item">Bali</a>
+                        <a href="404.html" class="dropdown-item">Yogyakarta</a>
+                        <a href="404.html" class="dropdown-item">Raja ampat</a>
+                        <a href="404.html" class="dropdown-item">Pulau Komodo</a>
+                    </div>
+                </div>
+                <a href="about.html" class="nav-item text-white" style="padding-right:80px">About</a>
+                <button class="float-lg-right bg-danger btn-close">Keluar</button>
             </nav>
         </div>
         <!-- Navbar End -->
-
         <!-- Header Start -->
-        <div class="container-fluid header bg-white p-0">
+        <div class="container-fluid header p-0" style="background-color:darkcyan">
             <div class="row g-0 align-items-center flex-column-reverse flex-md-row">
                 <div class="col-md-6 p-5 mt-lg-5">
-                    <h1 class="display-5 animated fadeIn mb-4">Find A <span class="text-primary">Perfect Home</span> To Live With Your Family</h1>
-                    <p class="animated fadeIn mb-4 pb-2">
-                        Vero elitr justo clita lorem. Ipsum dolor at sed stet
-                        sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea elitr.
-                    </p>
+                    <h1 class="display-5 animated fadeIn mb-4"><span class="text-primary">Selamat datang</span> di TravelingYuk</h1><br />
+
                     <a href="" class="btn btn-primary py-3 px-5 me-3 animated fadeIn">Log in & Sign in</a>
                 </div>
+
                 <div class="col-md-6 animated fadeIn">
-                    <div class="owl-carousel header-carousel">
+                    <div class="header-carousel">
                         <div class="owl-carousel-item">
-                            <img class="img-fluid" src="~/img/carousel-1.jpg" alt="">
-                        </div>
-                        <div class="owl-carousel-item">
-                            <img class="img-fluid" src="~/img/carousel-2.jpg" alt="">
+                            <img class="img-fluid" src="~/img/wa.jpg" alt="">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <!-- Header End -->
-
         <!-- Search Start -->
         <div class="container-fluid bg-dark mb-5 wow fadeIn" data-wow-delay="0.1s" style="padding: 35px;">
             <div class="container">
                 <div class="row g-2">
-                    <div class="col-md-10">
-                        <div class="row g-2">
-                            <div class="col-md-4">
-                                @*<input type="text" class="form-control border-0 py-3" placeholder="Search Keyword">*@
-                            </div>
-                            <div class="col-md-4">
-                                <select class="form-select border-0 py-3 bg-dark" style="color:white">
-                                    <option selected>Property Type</option>
-                                    <option value="1">Property Type 1</option>
-                                    <option value="2">Property Type 2</option>
-                                    <option value="3">Property Type 3</option>
-                                </select>
-                            </div>
-                            <div class="col-md-4">
-                                <select class="form-select border-0 py-3 bg-dark" style="color:white">
-                                    <option selected>Location</option>
-                                    <option value="1">Location 1</option>
-                                    <option value="2">Location 2</option>
-                                    <option value="3">Location 3</option>
-                                </select>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-2">
-                        <button class="btn btn-light border-0 w-100 py-3">Search</button>
-                    </div>
+                    @RenderBody()
                 </div>
             </div>
         </div>
         <!-- Search End -->
-
         <!-- Category Start -->
         <div class="container-xxl py-5">
             <div class="container">
                 <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                    <h1 class="mb-3">Property Types</h1>
-                    <p>Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed rebum vero dolor duo.</p>
+                    <h1 class="mb-3">Pilihan Penginapan</h1>
+                    <p>TravelingYuk menyediakan 3 buah penginapan yang sudah terjamin dan terpercaya yang bisa anda pesan langsung dari website ini sehingga memudahkan anda dalam melakukan check-in dan check-out</p>
                 </div>
                 <div class="row g-4">
                     <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
@@ -147,7 +128,7 @@
                                     <img class="img-fluid" src="~/img/icon-house.png" alt="Icon">
                                 </div>
                                 <h6>Hotel</h6>
-                                <span>123 Properties</span>
+                                <span>123 Hotel</span>
                             </div>
                         </a>
                     </div>
@@ -158,7 +139,7 @@
                                     <img class="img-fluid" src="~/img/icon-villa.png" alt="Icon">
                                 </div>
                                 <h6>Villa</h6>
-                                <span>123 Properties</span>
+                                <span>123 Villa</span>
                             </div>
                         </a>
                     </div>
@@ -168,8 +149,8 @@
                                 <div class="icon mb-3">
                                     <img class="img-fluid" src="~/img/icon-apartment.png" alt="Icon">
                                 </div>
-                                <h6>Apartment</h6>
-                                <span>123 Properties</span>
+                                <h6>Apartmen</h6>
+                                <span>123 Apartemen</span>
                             </div>
                         </a>
                     </div>
@@ -177,28 +158,18 @@
             </div>
         </div>
         <!-- Category End -->
-
-        <!-- About Start -->
-        <div class="container-xxl py-5">
-            <div class="container">
-                <div class="row g-5 align-items-center">
-                    @RenderBody()
-                </div>
-            </div>
-        </div>
-        <!-- About End -->
-
         <!-- Property List Start -->
         <div class="container-xxl py-5">
             <div class="container">
                 <div class="row g-0 gx-5 align-items-end">
                     <div class="col-lg-6">
                         <div class="text-start mx-auto mb-5 wow slideInLeft" data-wow-delay="0.1s">
-                            <h1 class="mb-3">Property Listing</h1>
-                            <p>Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut dolore lorem kasd vero ipsum sit eirmod sit diam justo sed rebum.</p>
+                            <h1 class="mb-3">Gambaran Tempat Menginap</h1>
+                            <p>ini adalah beberapa penampakan Hotel, Villa ataupun Apartemen yang tersedia di TravelingYuk, menarik bukan? yuk langsung coba check-in!</p>
                         </div>
                     </div>
-                    <div class="col-lg-6 text-start text-lg-end wow slideInRight" data-wow-delay="0.1s">
+                    @*batton pilihan*@
+                    @*<div class="col-lg-6 text-start text-lg-end wow slideInRight" data-wow-delay="0.1s">
                         <ul class="nav nav-pills d-inline-flex justify-content-end mb-5">
                             <li class="nav-item me-2">
                                 <a class="btn btn-outline-primary active" data-bs-toggle="pill" href="#tab-1">Featured</a>
@@ -210,8 +181,9 @@
                                 <a class="btn btn-outline-primary" data-bs-toggle="pill" href="#tab-3">For Rent</a>
                             </li>
                         </ul>
-                    </div>
+                    </div>*@
                 </div>
+
                 <div class="tab-content">
                     <div id="tab-1" class="tab-pane fade show p-0 active">
                         <div class="row g-4">
@@ -223,7 +195,7 @@
                                         <div class="bg-white rounded-top text-primary position-absolute start-0 bottom-0 mx-4 pt-1 px-3">Appartment</div>
                                     </div>
                                     <div class="p-4 pb-0">
-                                        <h5 class="text-primary mb-3">$12,345</h5>
+                                        <h5 class="text-primary mb-3">Rp.4.000.000 / Hari</h5>
                                         <a class="d-block h5 mb-2" href="">Golden Urban House For Sell</a>
                                         <p><i class="fa fa-map-marker-alt text-primary me-2"></i>123 Street, New York, USA</p>
                                     </div>
@@ -328,9 +300,6 @@
                                         <small class="flex-fill text-center py-2"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-12 text-center wow fadeInUp" data-wow-delay="0.1s">
-                                <a class="btn btn-primary py-3 px-5" href="">Browse More Property</a>
                             </div>
                         </div>
                     </div>
@@ -580,76 +549,60 @@
             </div>
         </div>
         <!-- Property List End -->
-
         <!-- Team Start -->
         <div class="container-xxl py-5">
             <div class="container">
                 <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                    <h1 class="mb-3">Property Agents</h1>
-                    <p>Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed rebum vero dolor duo.</p>
+                    <h1 class="mb-3">Investor</h1>
+                    <p>TravelingYuk memiliki beberapa investor besar yang sudah lama menjalin kerjasama dengan kami untuk membesarkan dan memajukan TravelingYuk</p>
                 </div>
                 <div class="row g-4">
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="team-item rounded overflow-hidden">
                             <div class="position-relative">
-                                <img class="img-fluid" src="~/img/team-1.jpg" alt="">
+                                <img class="img-fluid" src="~/img/Doni Salmanan.jpg" alt="">
                                 <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
-                                    <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-square mx-1" href="https://web.facebook.com/profile.php?id=100004873922717" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square mx-1" href="https://twitter.com/doni_salmanan" target="_blank"><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square mx-1" href="https://www.instagram.com/donisalmanan/" target="_blank"><i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
                             <div class="text-center p-4 mt-3">
-                                <h5 class="fw-bold mb-0">Full Name</h5>
-                                <small>Designation</small>
+                                <h5 class="fw-bold mb-0">Doni Salmanan</h5> 
+                                <small>Tradder</small>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="team-item rounded overflow-hidden">
                             <div class="position-relative">
-                                <img class="img-fluid" src="~/img/team-2.jpg" alt="">
+                                <img class="img-fluid" src="~/img/Joe Taslim.jpeg" alt="">
                                 <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
-                                    <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-square mx-1" href="https://web.facebook.com/joetaslim.page" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square mx-1" href="https://twitter.com/TaslimFan" target="_blank"><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square mx-1" href="https://www.instagram.com/joe_taslim/" target="_blank"><i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
                             <div class="text-center p-4 mt-3">
-                                <h5 class="fw-bold mb-0">Full Name</h5>
-                                <small>Designation</small>
+                                <h5 class="fw-bold mb-0">Joe Taslim</h5> 
+                                <small>Aktor</small>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                   
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                         <div class="team-item rounded overflow-hidden">
                             <div class="position-relative">
-                                <img class="img-fluid" src="~/img/team-3.jpg" alt="">
+                                <img class="img-fluid" src="~/img/Raffi Ahmad.jpg" alt="">
                                 <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
-                                    <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-square mx-1" href="https://web.facebook.com/RaffiAhmadLagi" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-square mx-1" href="https://twitter.com/FansterRaffiahh" target="_blank"><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square mx-1" href="https://www.instagram.com/raffinagita1717/"><i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
                             <div class="text-center p-4 mt-3">
-                                <h5 class="fw-bold mb-0">Full Name</h5>
-                                <small>Designation</small>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                        <div class="team-item rounded overflow-hidden">
-                            <div class="position-relative">
-                                <img class="img-fluid" src="~/img/team-4.jpg" alt="">
-                                <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
-                                    <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                            <div class="text-center p-4 mt-3">
-                                <h5 class="fw-bold mb-0">Full Name</h5>
-                                <small>Designation</small>
+                                <h5 class="fw-bold mb-0">Raffi Ahmad</h5>
+                                <small>Artis</small>
                             </div>
                         </div>
                     </div>
@@ -657,7 +610,6 @@
             </div>
         </div>
         <!-- Team End -->
-
         <!-- Footer Start -->
         <div class="container-fluid bg-dark text-white-50 footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
             <div class="container py-5">

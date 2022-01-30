@@ -12,6 +12,7 @@ namespace Travelingyu.Models
         public string KodePesawat { get; set; }
         public string NamaMaskapai { get; set; }
         public string JenisPesawat { get; set; }
+        public int Kursi { get; set; }
         public DateTime WaktuKeberangkatan { get; set; }
         public string Tujuan { get; set; }
 

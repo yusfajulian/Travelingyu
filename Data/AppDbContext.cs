@@ -19,5 +19,10 @@ namespace Travelingyu.Data
         public virtual DbSet<Pesawat> Tb_Pesawat { get; set; }
         public virtual DbSet<KelasPenerbangan> Tb_Kelas { get; set; }
         public virtual DbSet<Pemesanan> Tb_Transaksi { get; set; }
+        public virtual DbSet<Kereta> Tb_Kereta { get; set; }
+        public virtual DbSet<Bus> Tb_Bus { get; set; }
+        public virtual DbSet<KelasKereta> Tb_KelasKereta{ get; set; }
+        public virtual DbSet<Tiket> Tb_TiketKA { get; set; }
+        public virtual DbSet<TransaksiBus> Tb_TrBus { get; set; }
     }
 }

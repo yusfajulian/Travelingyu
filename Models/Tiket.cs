@@ -13,6 +13,5 @@ namespace Travelingyu.Models
         public Pelanggan KodeKodePelanggan { get; set; }
         public Kereta IdIdKereta { get; set; }
         public KelasKereta NamaKelas { get; set; }
-        public int Jumlah { get; set; }
     }
 }
